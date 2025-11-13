@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto Multiagentes\\Reto-Multiagentes\\Reto Multiagentes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto Multiagentes\\Reto-Multiagentes\\Reto Multiagentes\\assets\\scripts\\street_generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\street_generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\guerr\\Documents\\Tarea Graficado Tec\\Assets\\Scripts\\Graficador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Graficador.cs",
+              "DocumentMoniker": "C:\\Users\\guerr\\Documents\\Tarea Graficado Tec\\Assets\\Scripts\\Graficador.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Documents\\Tarea Graficado Tec\\Assets\\Scripts\\Graficador.cs",
+              "ToolTip": "C:\\Users\\guerr\\Documents\\Tarea Graficado Tec\\Assets\\Scripts\\Graficador.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Documents\\Tarea Graficado Tec\\Assets\\Scripts\\Graficador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:59:18.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Street_Generator.cs",
+              "DocumentMoniker": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto Multiagentes\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street_Generator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Street_Generator.cs",
+              "ToolTip": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto Multiagentes\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street_Generator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Street_Generator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T17:58:53.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
