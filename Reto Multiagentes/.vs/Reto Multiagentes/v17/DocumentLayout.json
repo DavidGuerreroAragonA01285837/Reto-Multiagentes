@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|c:\\users\\guerr\\onedrive\\escritorio\\reto-multiagentes\\reto multiagentes\\assets\\scripts\\street markings generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\street markings generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\assets\\scripts\\simulator_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\simulator_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|c:\\users\\guerr\\onedrive\\escritorio\\reto-multiagentes\\reto multiagentes\\assets\\scripts\\car_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\car_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\assets\\scripts\\street_generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\street_generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\assets\\scripts\\street markings generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9E884E-82BD-E8E2-DD98-3491FE9F5540}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\street markings generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car_Movement.cs",
+              "DocumentMoniker": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Car_Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Car_Movement.cs",
+              "ToolTip": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Car_Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Car_Movement.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T18:16:33.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Simulator_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Simulator_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Simulator_Manager.cs",
+              "ToolTip": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Simulator_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Simulator_Manager.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAcwHMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T23:26:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Street Markings Generator.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street Markings Generator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Street Markings Generator.cs",
               "ToolTip": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street Markings Generator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Street Markings Generator.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAhwMUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T22:12:59.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T22:12:59.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Street_Generator.cs",
               "DocumentMoniker": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street_Generator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Street_Generator.cs",
               "ToolTip": "C:\\Users\\guerr\\OneDrive\\Escritorio\\Reto-Multiagentes\\Reto Multiagentes\\Assets\\Scripts\\Street_Generator.cs",
               "RelativeToolTip": "Assets\\Scripts\\Street_Generator.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwDkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T17:58:53.733Z"
             }
