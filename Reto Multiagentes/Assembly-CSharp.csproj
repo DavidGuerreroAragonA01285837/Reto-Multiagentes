@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Car_Movement.cs" />
     <Compile Include="Assets\Scripts\Street Markings Generator.cs" />
+    <Compile Include="Assets\Scripts\GitHub_Downloader.cs" />
     <Compile Include="Assets\Scripts\Street_Generator.cs" />
     <Compile Include="Assets\Scripts\Simulator_Manager.cs" />
   </ItemGroup>

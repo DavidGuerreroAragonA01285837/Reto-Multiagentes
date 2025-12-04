@@ -46,17 +46,15 @@ public class Simulator_Manager : MonoBehaviour
 
     int carIndex;
     // Start is called before the first frame update
-    void Start()
+    public void Initiate()
     {
         jsonPath = Application.dataPath + "/output.json";
 
         json = File.ReadAllText(jsonPath);
 
         data = JsonConvert.DeserializeObject<ReporteUnity>(json);
-            
-        Debug.Log("Carros Cargados: " + data.carros.Count);
 
-        Debug.Log(data.carros[0].positions);
+        Debug.Log(data.carros.Count);
 
         carIndex = 0;
 
@@ -73,13 +71,15 @@ public class Simulator_Manager : MonoBehaviour
 
             if (carIndex < data.carros.Count)
             {
-                Debug.Log(data.carros[carIndex].start);
                 if (data.carros[carIndex].start  == step && !finished)
                 {
-                    int selection = UnityEngine.Random.Range(0, gameObjects.Count);
-                    GameObject newCar = Instantiate(gameObjects[selection]);
-                    newCar.GetComponent<Car_Movement>().path = data.carros[carIndex].path;
-                    newCar.GetComponent<Car_Movement>().positions = data.carros[carIndex].positions;
+                    if (data.carros[carIndex].positions.Count > 5)
+                    {
+                        int selection = UnityEngine.Random.Range(0, gameObjects.Count);
+                        GameObject newCar = Instantiate(gameObjects[selection]);
+                        newCar.GetComponent<Car_Movement>().path = data.carros[carIndex].path;
+                        newCar.GetComponent<Car_Movement>().positions = data.carros[carIndex].positions;
+                    }
                     carIndex ++;
                 }
 

@@ -1301,6 +1301,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1376853582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1376853584}
+  - component: {fileID: 1376853583}
+  m_Layer: 0
+  m_Name: Github_Downloader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1376853583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376853582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf489a07ae209849a91db30cc61bfdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: 'https://raw.githubusercontent.com/DavidGuerreroAragonA01285837/Reto-Multiagentes/main/output.json '
+  simulation: {fileID: 1009686866}
+--- !u!4 &1376853584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376853582}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -15.215864, y: -10.038288, z: 9.180277}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1602941133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,3 +1778,4 @@ SceneRoots:
   - {fileID: 874527052}
   - {fileID: 54714560}
   - {fileID: 1886899030}
+  - {fileID: 1376853584}
