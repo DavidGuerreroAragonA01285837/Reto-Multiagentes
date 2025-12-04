@@ -23,8 +23,8 @@ public class Car_Movement : MonoBehaviour
         while (true)
         {
             animationPosition += 1;
-
-            if (animationPosition < positions.Count){
+            
+            if (animationPosition < positions.Count && positions[animationPosition] < path[0].Count && positions[animationPosition] > 0){
                 transform.position = new Vector3(path[0][positions[animationPosition]], 0, path[1][positions[animationPosition]]);
                 Vector3 dir = new Vector3(path[0][positions[animationPosition] - 1], 0, path[1][positions[animationPosition] - 1]) - transform.position;
                 float angle = Mathf.Atan2(dir.z, dir.x) * Mathf.Rad2Deg;

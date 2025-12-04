@@ -29,6 +29,7 @@ public class ReporteUnity
 
 public class Simulator_Manager : MonoBehaviour
 {
+    List<GameObject> carros = new List<GameObject>();
 
     public List<GameObject> semaforos;
 
@@ -79,6 +80,7 @@ public class Simulator_Manager : MonoBehaviour
                         GameObject newCar = Instantiate(gameObjects[selection]);
                         newCar.GetComponent<Car_Movement>().path = data.carros[carIndex].path;
                         newCar.GetComponent<Car_Movement>().positions = data.carros[carIndex].positions;
+                        carros.Add(newCar);
                     }
                     carIndex ++;
                 }
@@ -108,11 +110,22 @@ public class Simulator_Manager : MonoBehaviour
 
             step++;
 
-            if (step == 100)
+            if (step == 150)
             {
-                Destroy(gameObject);
+                for (int i = 0; i < carros.Count; i++)
+                {
+                    if (carros[i] != null)
+                    {
+                        Destroy(carros[i]);
+                    }
+                }
+                carros.Clear();
+                carIndex = 0;
+                step = 0;
+                finished = false;
             }
 
+            Debug.Log(step);
             yield return new WaitForSeconds(0.1f);
 
         }
